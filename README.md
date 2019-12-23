@@ -1,2 +1,2 @@
-# pheidippides
+# Pheidippides
 Run Tracking
