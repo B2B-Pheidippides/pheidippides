@@ -1,0 +1,15 @@
+version: '3.7'
+services:
+  dev:
+    build:
+      context: .
+      target: setup
+    command: npm run dev
+    ports:
+      - 3000:3000
+  prod:
+    build:
+      context: .
+      target: production
+    ports:
+      - 3000:3000
