@@ -1,7 +1,6 @@
-import Header from './Header';
+
 import Nav from './Nav';
 import CommsBar from './CommsBar';
-import Footer from './Footer';
 
 const layoutStyle = {
   margin: 0,
