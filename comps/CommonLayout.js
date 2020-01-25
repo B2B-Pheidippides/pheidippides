@@ -1,4 +1,6 @@
 import Header from './Header';
+import Nav from './Nav';
+import CommsBar from './CommsBar';
 import Footer from './Footer';
 
 const layoutStyle = {
@@ -7,10 +9,10 @@ const layoutStyle = {
 };
 
 const Layout = props => (
-  <div style={layoutStyle}>
-    <Header/>
-      {props.children}
-    <Footer/>
+  <div class="uk-container" style={layoutStyle}>
+    <Nav/>
+    {props.children}
+    <CommsBar/>
     <style jsx global>
         {`
             body {
