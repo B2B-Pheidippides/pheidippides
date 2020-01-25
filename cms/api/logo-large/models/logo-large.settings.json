@@ -1,0 +1,19 @@
+{
+  "connection": "default",
+  "collectionName": "logo_larges",
+  "info": {
+    "name": "Logo-Large"
+  },
+  "options": {
+    "increments": true,
+    "timestamps": true
+  },
+  "attributes": {
+    "image": {
+      "model": "file",
+      "via": "related",
+      "plugin": "upload",
+      "required": false
+    }
+  }
+}
