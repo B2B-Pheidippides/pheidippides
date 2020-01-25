@@ -10,9 +10,9 @@ const layoutStyle = {
 
 const Layout = props => (
   <div class="uk-container" style={layoutStyle}>
-    <Nav/>
+    <div class="uk-position-top"><Nav/></div>
     {props.children}
-    <CommsBar/>
+    <div class="uk-position-bottom"><CommsBar/></div>
     <style jsx global>
         {`
             body {
