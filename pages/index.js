@@ -1,6 +1,5 @@
 
 import Layout from '../comps/CommonLayout';
-import Link from 'next/link';
 
 export default function Index() {
   return (
