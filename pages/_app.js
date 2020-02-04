@@ -16,11 +16,11 @@ const App = ({ Component, pageProps, apollo }) => {
         />
         <link
           rel="stylesheet"
-          href="https://cdn.jsdelivr.net/npm/uikit@3.2.3/dist/css/uikit.min.css"
+          href="https://cdn.jsdelivr.net/npm/uikit@3.3.1/dist/css/uikit.min.css"
         />
-        <script src="https://cdnjs.cloudflare.com/ajax/libs/uikit/3.2.0/js/uikit.min.js" />
-        <script src="https://cdn.jsdelivr.net/npm/uikit@3.2.3/dist/js/uikit-icons.min.js" />
-        <script src="https://cdnjs.cloudflare.com/ajax/libs/uikit/3.2.0/js/uikit.js" />
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/uikit/3.3.1/js/uikit.min.js" />
+        <script src="https://cdn.jsdelivr.net/npm/uikit@3.3.1/dist/js/uikit-icons.min.js" />
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/uikit/3.3.1/js/uikit.js" />
       </Head>
       <Component {...pageProps} />
     </ApolloProvider>
