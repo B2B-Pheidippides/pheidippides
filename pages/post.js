@@ -1,5 +1,5 @@
 import { useRouter } from 'next/router';
-import Layout from '../comps/CommonLayout';
+import LayoutStatic from '../comps/LayoutStatic';
 
 const Content = () => {
   const router = useRouter();
@@ -12,9 +12,9 @@ const Content = () => {
 };
 
 const Page = () => (
-  <Layout>
+  <LayoutStatic>
     <Content />
-  </Layout>
+  </LayoutStatic>
 );
 
 export default Page;

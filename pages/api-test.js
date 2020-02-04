@@ -1,9 +1,9 @@
-import Layout from '../comps/CommonLayout';
+import LayoutStatic from '../comps/StaticLayout';
 import Link from 'next/link';
 const axios = require('axios');
 
 const APITest = props => (
-  <Layout>
+  <LayoutStatic>
     <h1>Batman TV Shows</h1>
     <ul>
       {props.shows.map(show => (
@@ -14,7 +14,7 @@ const APITest = props => (
         </li>
       ))}
     </ul>
-  </Layout>
+  </LayoutStatic>
 );
 
 APITest.getInitialProps = async function() {

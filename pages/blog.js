@@ -1,6 +1,6 @@
 
 
-import Layout from '../comps/CommonLayout';
+import LayoutStatic from '../comps/LayoutStatic';
 import Link from 'next/link';
 
 const PostLink = props => (
@@ -28,7 +28,7 @@ const PostLink = props => (
   );
   export default function Blog() {
     return (
-      <Layout>
+      <LayoutStatic>
         <h1>The Blog</h1>
         <ul>
           <PostLink id="blog-post-1" />
@@ -61,6 +61,6 @@ const PostLink = props => (
             }
             `}
         </style>
-      </Layout>
+      </LayoutStatic>
     );
   }

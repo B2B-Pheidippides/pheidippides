@@ -1,10 +1,10 @@
 
-import Layout from '../comps/CommonLayout';
+import LayoutStatic from '../comps/LayoutStatic';
 
 export default function About() {
   return (
-    <Layout>
+    <LayoutStatic>
       <p>This is the 'about us' page</p>
-    </Layout>
+    </LayoutStatic>
   );
 }

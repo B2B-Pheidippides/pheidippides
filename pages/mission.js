@@ -1,11 +1,11 @@
-import Layout from '../comps/CommonLayout';
+import LayoutStatic from '../comps/LayoutStatic';
 
 export default function Mission() {
   return (
     <div>
-      <Layout>
+      <LayoutStatic>
         <p>This is the 'our mission' page</p>
-      </Layout>
+      </LayoutStatic>
     </div>
   );
 }
