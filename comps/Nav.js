@@ -5,8 +5,8 @@ const Nav = () => (
     <div className="uk-container">
         <nav className="uk-navbar uk-navbar-container" data-uk-navbar>
             <div className="uk-navbar-left">
-                <Link href="/"><a className="uk-navbar-brand uk-visible@m">Big Home</a></Link>
-                <Link href="/"><a className="uk-navbar-brand uk-hidden@m">Small Home</a></Link>
+                <Link href="/"><a className="uk-navbar-brand uk-visible@m">Border-to-Border</a></Link>
+                <Link href="/"><a className="uk-navbar-brand uk-hidden@m">B2B</a></Link>
             </div>
             <div className="uk-navbar-center uk-visible@m">
                 <ul className="uk-navbar-nav">
