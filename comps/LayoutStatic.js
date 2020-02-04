@@ -4,9 +4,9 @@ import CommsBar from './CommsBar';
 
 const LayoutStatic = props => (
   <div>
-    <div className="uk-section"><Nav/></div>
+    <div className="uk-section uk-background-default"><Nav/></div>
       {props.children}
-    <CommsBar/>
+    <div className="uk-section-xsmall uk-background-default"><CommsBar/></div>
   </div>
 );
 
